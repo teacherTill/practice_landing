@@ -1,0 +1,50 @@
+.input {
+  display: flex;
+  max-width: 1130px;
+  width: 100%;
+  margin-top: 10px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.banerInputs {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 30px;
+  background: #fff;
+  flex-grow: 1;
+}
+.banerSearchInput {
+  display: flex;
+  position: relative;
+}
+.banerDevider {
+  border-left: 1px solid gray;
+}
+.banerCityInput {
+}
+.banerSearchButton {
+  background: rgba(39, 64, 89, 1);
+  padding: 30px 70px;
+  border: none;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.banerSearchButton:hover {
+  background: teal;
+}
+
+.banerIcon {
+  position: absolute;
+  left: -25px;
+}
+.banerInput {
+  border: none;
+  padding: 5px;
+  outline: 0px;
+}
+
+.banerInput::placeholder {
+  color: black;
+}

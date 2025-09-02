@@ -1,0 +1,14 @@
+.baner {
+  background: rgba(205, 231, 255, 1);
+  padding: 130px 100px 300px;
+  position: relative;
+}
+.banerHeader {
+  font-weight: 700;
+  font-size: 65px;
+}
+.banerBg {
+  position: absolute;
+  right: -330px;
+  bottom: -102px;
+}

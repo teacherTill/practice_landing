@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 110px;
+  padding: 30px 100px;
+  background: rgba(205, 231, 255, 1);
+}
+.headerLinks {
+  flex-grow: 1;
+  display: flex;
+  gap: 50px;
+}
+.headerAuth {
+  display: flex;
+  gap: 50px;
+}
+.register {
+  color: black;
+  font-weight: 400;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.auth {
+  padding: 14px;
+  border: none;
+  background: white;
+}
