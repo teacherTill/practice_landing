@@ -10,7 +10,7 @@ const Baner = () => {
         <br /> и работа в кармане
       </h1>
       <BanerSearch />
-      <img className={styles.banerBg} src={BanerBg} alt="" />
+      {/* <img className={styles.banerBg} src={BanerBg} alt="" /> */}
     </div>
   )
 }

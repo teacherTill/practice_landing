@@ -1,0 +1,15 @@
+.vacancyListWrapper {
+  padding: 110px 100px 130px;
+  background: rgba(228, 242, 255, 1);
+  text-align: left;
+}
+.vacancyLabel {
+  margin-bottom: 40px;
+}
+.vacancyList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 70px;
+}
